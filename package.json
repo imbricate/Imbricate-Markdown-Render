@@ -1,7 +1,7 @@
 {
   "name": "@imbricate/markdown-render",
   "packageManager": "yarn@4.1.1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Markdown Renderer for Imbricate",
   "scripts": {
     "test": "jest",
@@ -19,8 +19,7 @@
   },
   "keywords": [
     "imbricate",
-    "note",
-    "file-system"
+    "markdown"
   ],
   "author": "WMXPY",
   "license": "MIT",
