@@ -6,6 +6,7 @@
 
 import { Converter } from "showdown";
 import showdownKatex from "showdown-katex";
+import { showdownHighlight } from "./highlight";
 
 export type RenderMarkdownToHtmlConfig = {
 
@@ -48,6 +49,7 @@ export const renderMarkdownToHtml = async (
                 displayMode: false,
                 errorColor: "red",
             }),
+            showdownHighlight(),
         ],
     });
 
