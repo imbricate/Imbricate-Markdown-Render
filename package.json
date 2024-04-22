@@ -1,7 +1,7 @@
 {
   "name": "@imbricate/markdown-render",
   "packageManager": "yarn@4.1.1",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "Markdown Renderer for Imbricate",
   "scripts": {
     "test": "jest",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://imbricate.io",
   "dependencies": {
+    "highlight.js": "^11.9.0",
     "showdown": "^2.1.0",
     "showdown-katex": "^0.8.0"
   },
