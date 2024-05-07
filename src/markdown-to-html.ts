@@ -24,7 +24,7 @@ const createDefaultConfig = (): RenderMarkdownToHtmlConfig => {
     return {
 
         emoji: true,
-        encodeEmails: true,
+        encodeEmails: false,
         simpleLineBreaks: true,
         simplifiedAutoLink: true,
         tableHeaderId: false,
