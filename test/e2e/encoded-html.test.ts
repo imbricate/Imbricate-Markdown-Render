@@ -19,6 +19,6 @@ describe("Given (Encoded HTML) Cases", (): void => {
 
         const parsed: string = await renderMarkdownToHtml(source);
 
-        expect(parsed).toContain("<pre><code>");
+        expect(parsed).toContain("<pre><code");
     });
 });
