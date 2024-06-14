@@ -32,4 +32,19 @@ describe("Given [Markdown to HTML] Parser Helper Methods", (): void => {
             "<p>Hello World</p>",
         ].join("\n"));
     });
+
+    test.skip("should be able to parse HTML code block", async (): Promise<void> => {
+
+        const source: string = [
+            "```",
+            "\\<div>",
+            "Hello World",
+            "\\</div>",
+            "```",
+        ].join("\n");
+
+        const parsed: string = await renderMarkdownToHtml(source);
+
+        expect(parsed).toEqual("<pre><code><div>\nHello World\n</div>\n</code></pre>");
+    });
 });
