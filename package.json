@@ -1,6 +1,6 @@
 {
   "name": "@imbricate/markdown-render",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.5.1",
   "version": "1.2.0",
   "description": "Markdown Renderer for Imbricate",
   "scripts": {
